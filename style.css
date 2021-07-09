@@ -1,0 +1,163 @@
+*{  margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: InInconsolata-Regular;
+    src: url(./font/Inconsolata/static/Inconsolata/Inconsolata-Regular.ttf);
+}
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url(./font/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: PTSans-Bold;
+    src: url(./font/PT_Sans/PTSans-Bold.ttf);
+}
+.header{
+    background-color: white;
+    padding: 1% 0;
+}
+.container{
+    overflow: hidden;
+    width: 92%;
+    margin: 0 auto;
+}
+.logo{
+    margin-top: 1%;
+    width: 15%;
+    float: left;
+}
+.logo a{}
+.logo a image{
+    width: 100%;
+}
+.menue{
+    margin-top: 1%;
+    width: 70%;
+    float: right;
+}
+.menue ul{
+    list-style: none;
+    float: right;  
+}
+.menue ul li{
+    float: left;
+}
+.menue ul li a{
+    margin: 0 50px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+    
+}
+.menue ul li:last-child a{
+    margin-right: 0;
+}
+
+.b_image{
+    margin-top: 6%;
+}
+ img{
+    width: 100%;
+}
+.getway{}
+.container2{
+    margin: 0 auto;
+    width: 75%;
+}
+.getway_content{}
+.getway_content h2{}
+.title{
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 25px;
+    color: #626262;
+
+}
+.mt_1{
+    margin-top: 7%;
+    margin-bottom: 1%;
+}
+.mt_2{
+  margin-top: 2%;  
+  margin-bottom: 3%;
+}
+.for_pp{
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #626262;
+}
+.for_p{
+    font-family: Ubuntu-Light;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+.blog_image img{
+    width: 100%;
+    margin-top: 10%;
+}
+.blog_wraper{
+    overflow: hidden;
+}
+.blog_content{
+    width: 47%;
+    float: left;   
+}
+.blog_content:nth-child(even){
+    margin-left: 6%;
+}
+.form_main{
+   margin-top: 50px;
+   margin-bottom: 30px;
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+.f_content{
+    text-align:center ;
+}
+.s_h1{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.s_form{
+    margin: 0 auto;
+    position: relative;
+    width: 400px;
+   
+}
+.s_form input{
+    width: 230px;
+    height: 30px;
+    font-family: Playfair Display;
+    font-size: 14px;
+    color: #626262;
+    border: none;
+    border-bottom: 1px solid #626262;
+    background-color: transparent;
+    padding-right: 60px;
+    padding-left: 15px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top: 5px;
+    right: 60px;
+}
